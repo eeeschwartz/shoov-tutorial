@@ -3,7 +3,7 @@
 var shoovWebdrivercss = require('shoov-webdrivercss');
 var config = require('../config.js');
 
-describe('Homepage visual regressions', function() {
+describe('Browse navigation visual regressions', function() {
 
   this.timeout(99999999);
   var client = {};
