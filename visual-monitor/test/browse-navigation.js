@@ -24,7 +24,7 @@ describe('Browse navigation visual regressions', function() {
         exclude: [],
         remove: [],
         hide: [],
-        screenWidth: config.selectedCaps == 'chrome' ? config.breakpoints : undefined,
+        screenWidth: config.caps.screenWidths,
       }, config.resultsCallback)
       .call(done);
   });
@@ -37,7 +37,7 @@ describe('Browse navigation visual regressions', function() {
         exclude: [],
         remove: [],
         hide: [],
-        screenWidth: config.selectedCaps == 'chrome' ? config.breakpoints : undefined,
+        screenWidth: config.caps.screenWidths,
       }, config.resultsCallback)
       .call(done);
   });

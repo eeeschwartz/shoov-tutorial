@@ -24,7 +24,7 @@ describe('Homepage visual regressions', function() {
         exclude: [],
         remove: [],
         hide: [],
-        screenWidth: config.selectedCaps == 'chrome' ? config.breakpoints : undefined,
+        screenWidth: config.caps.screenWidths,
       }, config.resultsCallback)
       .call(done);
   });
