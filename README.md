@@ -9,5 +9,6 @@ run ngrok for the local site
 
 ## Running the tests against local site
 
+cd visual-monitor
 BASE_URL=https://123465.ngrok.com PROVIDER_PREFIX=browserstack SELECTED_CAPS=chrome mocha
 BASE_URL=https://123465.ngrok.com PROVIDER_PREFIX=browserstack SELECTED_CAPS=ie11 mocha
